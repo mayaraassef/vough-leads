@@ -1,1 +1,1 @@
-web: node App.vue
+web: node "./src/App.vue"

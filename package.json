@@ -1,17 +1,17 @@
 {
   "name": "vough-leads",
   "version": "0.1.0",
-  "main": "app.vue",
+  "main": "./src/App.vue",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "node app.vue"
-  
+    "start": "./src/App.vue"
   },
   "dependencies": {
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "express": "^4.17.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -23,13 +23,11 @@
     "eslint-plugin-vue": "^6.2.2",
     "vue-template-compiler": "^2.6.11"
   },
-
   "keywords": [
     "node",
     "heroku",
     "express"
   ],
-
   "eslintConfig": {
     "root": true,
     "env": {
