@@ -1,6 +1,5 @@
 {
     "name": "Start on Heroku: Node.js",
     "description": "A barebones Node.js app using Express 4",
-    "keywords": ["node", "express", "heroku"],
-    "image": "heroku/nodejs"
+    "keywords": ["node", "express", "heroku"]
 }
